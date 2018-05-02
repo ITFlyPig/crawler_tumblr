@@ -35,4 +35,12 @@ public class UserController {
         return test.getAll();
     }
 
+    @RequestMapping("/test")
+    @ResponseBody
+    public String test(){
+        return "OK";
+    }
+
+
+
 }
